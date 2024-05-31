@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", "Roboto";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Ubuntu", "Roboto", "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: auto;
+  background-image: linear-gradient(
+    180deg,
+    var(--dark-blue-background),
+    var(--blue-background)
+  );
+  color: var(--white-color);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
