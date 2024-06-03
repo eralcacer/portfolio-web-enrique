@@ -8,7 +8,7 @@ export const content = {
     primaryBtnGradientTxt: "Hire Me ➡",
     primaryBtnUrl: "mailto:enrique.alcacer@gmail.com",
     secondaryBtnBracketTxt: "My Portfolio",
-    secondaryBtnUrl: "#",
+    secondaryBtnUrl: "https://github.com/eralcacer",
   },
   MainInformation: {
     name: "Enrique Alcacer",
