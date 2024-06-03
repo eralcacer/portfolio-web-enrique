@@ -6,4 +6,6 @@
   --blue-logo-color: #0d3b66;
   --font-platinum-color: #e0e1dd;
   --white-color: #fff;
+  --gray-shadow: rgba(128, 128, 128, 0.6);
+  --white-shadow: rgba(255, 255, 255, 0.6);
 }

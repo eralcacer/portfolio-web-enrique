@@ -6,17 +6,20 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(
+    180deg,
+    var(--dark-blue-background),
+    var(--blue-background)
+  ); */
+  background-color: var(--dark-blue-background);
+  overflow-y: scroll;
 }
 
 #root {
   min-height: 100vh;
   overflow-x: hidden;
   width: auto;
-  background-image: linear-gradient(
-    180deg,
-    var(--dark-blue-background),
-    var(--blue-background)
-  );
+
   color: var(--white-color);
 }
 code {

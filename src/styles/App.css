@@ -1,3 +1,111 @@
-.main-component {
-  padding: 2em 4em;
+.gradient-txt-red-yellow {
+  background: linear-gradient(
+    90deg,
+    var(--red-coral-logo-color),
+    var(--yellow-logo-color)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-btn-primary {
+  background-image: linear-gradient(
+    90deg,
+    var(--red-coral-logo-color),
+    var(--yellow-logo-color)
+  );
+  padding: 1em 2em;
+  border: none;
+  text-decoration: none;
+  color: var(--white-color);
+  border-radius: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+  box-shadow: 1px 2px 1px 0px var(--gray-shadow);
+  cursor: pointer;
+}
+.gradient-btn-primary:hover {
+  scale: 1.1;
+}
+.bracket-secondary-btn {
+  color: var(--white-color);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.bracket-secondary-btn:hover {
+  scale: 1.1;
+}
+.bracket-gradient {
+  background: linear-gradient(
+    180deg,
+    var(--red-coral-logo-color),
+    var(--yellow-logo-color)
+  );
+  margin: 1em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.social-media-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  position: relative;
+  border-radius: 0%;
+  padding: 0px;
+  box-sizing: border-box;
+  /* animation: move-around 0.6s infinite; */
+}
+@keyframes move-around {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.social-media-icon::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border-radius: 50%;
+  padding: 8px;
+  border: 1px solid transparent;
+  background: linear-gradient(
+      90deg,
+      var(--red-coral-logo-color),
+      var(--yellow-logo-color)
+    )
+    border-box;
+  mask: repeating-conic-gradient(
+    from 0deg,
+    #0000,
+    #0000 5deg,
+    #000 5deg,
+    #000 10deg
+  );
+  -webkit-mask: repeating-conic-gradient(
+    from 0deg,
+    #0000,
+    #0000 5deg,
+    #000 5deg,
+    #000 10deg
+  );
+  transition: transform 0.3s ease-in-out;
+}
+.social-media-icon:hover::before {
+  animation: borderAnimation 2s linear infinite;
+}
+@keyframes borderAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

@@ -4,7 +4,7 @@ import "../style/navbar.css";
 
 function MenuList() {
   return (
-    <ul className="menu-list-comp">
+    <ul className="menu-list-comp mob-menu">
       <li>
         <a className="link-menu" href="#">
           About Enrique
