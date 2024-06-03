@@ -10,4 +10,11 @@ export const content = {
     secondaryBtnBracketTxt: "My Portfolio",
     secondaryBtnUrl: "#",
   },
+  MainInformation: {
+    name: "Enrique Alcacer",
+  },
+  FooterSection: {
+    profileDescription:
+      "Developing quality software with a focus on reusability and efficiency. Skilled in algorithms, data structures, and creating scalable solutions. Let’s build exceptional digital experiences together.",
+  },
 };

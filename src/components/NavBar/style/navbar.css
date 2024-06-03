@@ -4,6 +4,11 @@
   justify-content: space-between;
   padding: 2em 4em;
   border-bottom: 1px solid var(--font-platinum-color);
+  background-image: linear-gradient(
+    180deg,
+    var(--blue-background),
+    var(--dark-blue-background)
+  );
 }
 .logo-comp {
   display: flex;
