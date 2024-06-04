@@ -13,6 +13,11 @@ export const content = {
   MainInformation: {
     name: "Enrique Alcacer",
   },
+  ExperienceInformation: {
+    experienceTitle: "About Me",
+    experienceDescTxt:
+      "MS in computer Science, building an event sourcing distributed system that records events in a scalable way through Blockchain Ehtereum Sepolia's Network.",
+  },
   FooterSection: {
     profileDescription:
       "Developing quality software with a focus on reusability and efficiency. Skilled in algorithms, data structures, and creating scalable solutions. Let’s build exceptional digital experiences together.",

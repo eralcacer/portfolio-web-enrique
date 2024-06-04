@@ -1,0 +1,61 @@
+.code-comp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto auto;
+  width: 50%;
+  height: fit-content;
+}
+.circle-code {
+  width: 90%;
+  background-image: linear-gradient(
+    45deg,
+    var(--red-coral-logo-color),
+    var(--yellow-logo-color)
+  );
+}
+.row-comp {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+}
+.row-comp div {
+  margin-right: 1em;
+}
+.yellow-line {
+  height: 2px;
+  background-color: var(--yellow-logo-color);
+  margin: 1em 0;
+}
+.blue-line {
+  height: 2px;
+  background-color: var(--light-blue);
+  margin: 1em 0;
+}
+.dark-blue-line {
+  height: 2px;
+  background-color: var(--secondary-light-blue);
+  margin: 1em 0;
+}
+.darker-red-line {
+  height: 2px;
+  background-color: var(--darker-red-coral-color);
+  margin: 1em 0;
+}
+.width-10 {
+  width: 10%;
+}
+.width-20 {
+  width: 20%;
+}
+.width-30 {
+  width: 30%;
+}
+.width-50 {
+  width: 50%;
+}
+.margin-left {
+  margin-left: 2em;
+}
