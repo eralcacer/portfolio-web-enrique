@@ -3,9 +3,15 @@
   --blue-background: #001d3d;
   --yellow-logo-color: #f4d35e;
   --red-coral-logo-color: #f95738;
+  --dark-red-coral-color: #f95838bc;
+  --darker-red-coral-color: #9f1b009d;
   --blue-logo-color: #0d3b66;
   --font-platinum-color: #e0e1dd;
   --white-color: #fff;
+  --white-egg-color: #fdf0d5;
   --gray-shadow: rgba(128, 128, 128, 0.6);
   --white-shadow: rgba(255, 255, 255, 0.6);
+  --light-blue: #8ecae6;
+  --secondary-light-blue: #219ebc;
+  --maroon-color: #780000;
 }

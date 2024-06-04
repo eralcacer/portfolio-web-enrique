@@ -4,10 +4,13 @@ import LinkedinButton from "../../general/social-media-icons/LinkedinButton";
 
 function SocialMediaComponent() {
   return (
-    <div className="social-media-comp">
-      <LinkedinButton />
-      <GithubButton />
-    </div>
+    <>
+      <h3>Follow Me</h3>
+      <div className="social-media-comp">
+        <LinkedinButton />
+        <GithubButton />
+      </div>
+    </>
   );
 }
 

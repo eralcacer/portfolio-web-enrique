@@ -1,3 +1,5 @@
+import ResumePDF from "../assets/Enrique Alcacer Resume - Software General.pdf";
+
 export const content = {
   AboutMeSection: {
     mainTitleTopWhite: "👋 Hey There,",
@@ -12,6 +14,13 @@ export const content = {
   },
   MainInformation: {
     name: "Enrique Alcacer",
+  },
+  ExperienceInformation: {
+    experienceTitle: "About Me",
+    experienceDescTxt:
+      "MS in Computer Science with expertise in creating both static and dynamic web apps. Skilled in integrating content management systems for seamless user experiences. Built a scalable event sourcing distributed system using Ethereum's Sepolia Network.",
+    downloadBtnTxt: "Download CV 📂",
+    downloadLinkExperience: ResumePDF,
   },
   FooterSection: {
     profileDescription:
