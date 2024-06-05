@@ -1,4 +1,5 @@
 import React from "react";
+
 import LeftSideImg from "./components/LeftSideImg";
 import RightSideTxt from "./components/RightSideTxt";
 

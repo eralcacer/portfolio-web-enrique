@@ -1,3 +1,5 @@
+import ResumePDF from "../assets/Enrique Alcacer Resume - Software General.pdf";
+
 export const content = {
   AboutMeSection: {
     mainTitleTopWhite: "👋 Hey There,",
@@ -16,7 +18,23 @@ export const content = {
   ExperienceInformation: {
     experienceTitle: "About Me",
     experienceDescTxt:
-      "MS in computer Science, building an event sourcing distributed system that records events in a scalable way through Blockchain Ehtereum Sepolia's Network.",
+      "MS in Computer Science with expertise in creating both static and dynamic web apps. Skilled in integrating content management systems for seamless user experiences. Built a scalable event sourcing distributed system using Ethereum's Sepolia Network.",
+    downloadBtnTxt: "Download CV 📂",
+    downloadLinkExperience: ResumePDF,
+    counterComponet: {
+      firstCounterComp: {
+        number: 3,
+        txt: "Years of Experience in Software Development.",
+      },
+      secondCounterComp: {
+        number: 20,
+        txt: "Successfully Projects Completed.",
+      },
+      thirdCounterComp: {
+        number: 100,
+        txt: "LeetCode Problems Solved.",
+      },
+    },
   },
   FooterSection: {
     profileDescription:
