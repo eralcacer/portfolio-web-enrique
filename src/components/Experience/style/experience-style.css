@@ -62,13 +62,12 @@
   display: block;
   margin: 0;
 }
-.right-recap-comp h2 {
-  width: 70%;
-}
 .recap-comp .right-recap-comp .btns-component {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  margin: auto auto;
+  align-items: flex-start;
+  margin: 0;
 }
 .counter-container {
   display: flex;
@@ -76,9 +75,17 @@
   justify-content: space-around;
   margin-bottom: 2em;
 }
+.counter-inside {
+  width: 100%;
+}
+.counter-container .counter-inside:nth-last-child() .counter-txt {
+  width: 100%;
+  text-wrap: wrap;
+  height: fit-content;
+}
 .counter-txt {
   text-wrap: wrap;
-  width: auto;
+  width: 95%;
   height: fit-content;
 }
 @media only screen and (max-width: 1000px) {
@@ -103,17 +110,18 @@
   .right-recap-comp {
     width: auto;
     margin: auto auto 2em auto;
+    padding: 0 2em;
+  }
+  .right-recap-comp h1 {
+    margin: auto auto 12px auto;
   }
   .circle-code {
     width: 100%;
   }
-  .right-recap-comp h2 {
-    width: 100%;
-    text-align: center;
-  }
   .right-recap-comp .desc-txt {
-    width: 70%;
+    width: 100%;
     margin: 0 auto 2em;
+    text-align: center;
   }
   .counter-container {
     display: block;
@@ -133,7 +141,7 @@
   }
   .recap-comp .btns-component .gradient-btn-primary {
     display: flex;
-    margin: auto;
+    margin: auto auto 2em auto;
     width: fit-content;
   }
 }

@@ -7,14 +7,14 @@ import SocialMediaComponent from "./SocialMediaComponent";
 function TextProfile() {
   return (
     <div className="text-profile-comp">
-      <h2 className="welcome-txt">
+      <h1 className="welcome-txt">
         {content.AboutMeSection.mainTitleTopWhite}
         <br />
         {content.AboutMeSection.mainTitleBottomWhite}
         <span className="gradient-txt-red-yellow">
           {content.AboutMeSection.mainTitleGradient}
         </span>
-      </h2>
+      </h1>
       <p className="desc-txt">{content.AboutMeSection.descriptionText}</p>
       <ButtonsComponent />
       <SocialMediaComponent />
