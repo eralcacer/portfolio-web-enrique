@@ -9,7 +9,7 @@ function ExperienceMain() {
   const [stateREady, setStateReady] = useState<boolean>(false);
   const lazyLoaderInView = useLazyLoader({
     componentRef: stateREady ? experienceCompRef.current : null,
-    optionsMargin: { rootMargin: "-5%" },
+    optionsMargin: { rootMargin: "0%" },
   });
 
   useEffect(() => {

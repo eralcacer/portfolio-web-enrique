@@ -1,4 +1,6 @@
 import ResumePDF from "../assets/Enrique Alcacer Resume - Software General.pdf";
+import CounterType from "../types/CounterType";
+import TextInformationType from "../types/TextInformationType";
 
 export const content = {
   AboutMeSection: {
@@ -19,22 +21,50 @@ export const content = {
     experienceTitle: "About Me",
     experienceDescTxt:
       "MS in Computer Science with expertise in creating both static and dynamic web apps. Skilled in integrating content management systems for seamless user experiences. Built a scalable event sourcing distributed system using Ethereum's Sepolia Network.",
-    downloadBtnTxt: "Download CV 📂",
+    downloadBtnTxt: "Enrique's Resume 📂",
     downloadLinkExperience: ResumePDF,
-    counterComponet: {
-      firstCounterComp: {
+    counterComponet: [
+      {
         number: 3,
         txt: "Years of Experience in Software Development.",
       },
-      secondCounterComp: {
+      {
         number: 20,
         txt: "Successfully Projects Completed.",
       },
-      thirdCounterComp: {
+      {
         number: 100,
         txt: "LeetCode Problems Solved.",
       },
-    },
+    ] as CounterType[],
+  },
+  EducationComp: {
+    educationArr: [
+      {
+        headline: "California State University of Sacramento",
+        txt: "M.S. Computer Science",
+        dates: "Jan 2022 - May 2024",
+      },
+      {
+        headline: "Emmanuel University",
+        txt: "B.S. Mathematics, additional major in Business Administration with Information Systems Concentration",
+        dates: "Aug 2015 - May 2020",
+      },
+    ] as TextInformationType[],
+  },
+  ExperienceComp: {
+    workArr: [
+      {
+        headline: "University Enterprises, Inc., Sacramento, CA",
+        txt: "Frontend Engineer",
+        dates: "May 2022 - Present",
+      },
+      {
+        headline: "Lanaccess, Barcelona, Spain",
+        txt: "Mobile App Developer Intern",
+        dates: "Jun 2023 - Aug 2023",
+      },
+    ] as TextInformationType[],
   },
   FooterSection: {
     profileDescription:
