@@ -5,7 +5,7 @@ import LinkedinButton from "../../general/social-media-icons/LinkedinButton";
 function SocialMediaComponent() {
   return (
     <>
-      <h3>Follow Me</h3>
+      <h2 className="follow-title">Follow Me</h2>
       <div className="social-media-comp">
         <LinkedinButton />
         <GithubButton />

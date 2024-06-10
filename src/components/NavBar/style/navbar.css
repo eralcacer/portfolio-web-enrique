@@ -1,7 +1,5 @@
 .nav-bar-comp {
   color: var(--white-color);
-  display: flex;
-  justify-content: space-between;
   padding: 2em 4em;
   border-bottom: 1px solid var(--font-platinum-color);
   background-image: linear-gradient(
@@ -9,6 +7,11 @@
     var(--blue-background),
     var(--dark-blue-background)
   );
+}
+.menu-comp-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo-comp {
   display: flex;
@@ -45,11 +48,10 @@
   }
 }
 .menu-list-comp {
-  display: flex;
   list-style: none;
+  display: flex;
 }
 .menu-list-comp li {
-  display: flex;
   list-style: none;
   margin: 0 24px;
   text-transform: uppercase;
@@ -63,17 +65,26 @@
 .link-menu:hover {
   color: var(--font-platinum-color);
 }
-.menu-list-comp li:first-child {
-  color: var(--font-platinum-color);
-  opacity: 0.7;
-}
 .menu-footer h3 {
   text-align: right;
 }
+.follow-title {
+  text-align: right;
+}
 .mob-menu {
-  display: flex;
+  display: none;
 }
 @media only screen and (max-width: 1000px) {
+  .nav-bar-comp {
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .menu-comp-top {
+    display: flex;
+    padding: 1em 2em;
+    justify-content: space-between;
+    align-items: center;
+  }
   .logo-comp {
     display: flex;
     justify-content: center;
@@ -93,5 +104,61 @@
     font-weight: bold;
     cursor: pointer;
     animation: scale-up 0.2s forwards;
+  }
+  .menu-icon {
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .mob-menu {
+    display: block;
+    position: fixed;
+    background-image: linear-gradient(
+      180deg,
+      var(--dark-blue-background-opacity),
+      var(--blue-background-opacity)
+    );
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .mob-menu li {
+    padding: 1em 2em;
+    border-top: 1px solid var(--font-platinum-color-opacity);
+    border-bottom: 1px solid var(--font-platinum-color-opacity);
+  }
+  .mounted {
+    opacity: 0;
+    z-index: 0;
+  }
+  .menu-close {
+    transform: translateX(100%);
+  }
+  .menu-open {
+    transform: translateX(0%);
+  }
+  .open {
+    transform: rotate(0);
+    animation: rotateLeft90 0.5s forwards;
+  }
+  .close {
+    transform: rotate(90deg);
+    animation: rotateRight90 0.5s forwards;
+  }
+  .menu-list-comp {
+    display: none;
+  }
+  .mob-menu li:nth-last-child(1) {
+    border: none;
+  }
+  .mob-menu .follow-title {
+    text-align: center;
   }
 }

@@ -10,8 +10,8 @@ function TextInformation({ txtInformation }: TextInformationProps) {
   return (
     <>
       {txtInformation.map((information, index) => (
-        <div className="txt-information">
-          <div key={index}>
+        <div className="txt-information" key={index}>
+          <div>
             <h3 className="headline-txt">{information.headline}</h3>
             <div className="information-comp">
               <p>{information.txt}</p>

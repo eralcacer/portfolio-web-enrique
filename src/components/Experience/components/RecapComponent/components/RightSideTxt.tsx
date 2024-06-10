@@ -17,9 +17,9 @@ function RightSideTxt() {
       <div className="btns-component">
         <div className="counter-container">
           {content.ExperienceInformation.counterComponet.map(
-            (information: CounterType) => {
+            (information: CounterType, index: number) => {
               return (
-                <div className="counter-inside">
+                <div className="counter-inside" key={index}>
                   <CounterNumbers numberCounter={information.number} />
                   <p className="counter-txt">{information.txt}</p>
                 </div>
