@@ -6,7 +6,7 @@ import ContentSection from "./components/ContentSection";
 
 function AboutMeMain() {
   return (
-    <div className="about-me-comp">
+    <div className="about-me-comp" id="about-me">
       <div className="image-vector">
         <ContentSection />
         <ImageBackgroundVector />

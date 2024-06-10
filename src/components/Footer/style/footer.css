@@ -45,7 +45,7 @@
   justify-content: flex-end;
   text-decoration: none;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
   .footer-comp {
     margin-top: 2em;
     display: flex;
