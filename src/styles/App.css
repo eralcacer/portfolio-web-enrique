@@ -57,13 +57,12 @@ h2 {
 }
 .social-media-icon {
   display: inline-block;
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
   position: relative;
   border-radius: 0%;
   padding: 0px;
   box-sizing: border-box;
-  /* animation: move-around 0.6s infinite; */
 }
 @keyframes move-around {
   0% {
