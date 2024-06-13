@@ -4,18 +4,29 @@ import SocialMediaComponent from "../../AboutMe/components/SocialMediaComponent"
 interface MobMenuListProps {
   isMenuOpen: boolean;
   isComponentMounted: boolean;
+  handleMenuButton: () => void;
 }
 
-function MobMenuList({ isMenuOpen, isComponentMounted }: MobMenuListProps) {
+function MobMenuList({
+  isMenuOpen,
+  isComponentMounted,
+  handleMenuButton,
+}: MobMenuListProps) {
   return (
     <ul className={`mob-menu ${isMenuOpen ? "menu-open" : "menu-close"}`}>
       <li>
-        <a className="link-menu" href="#about-me">
+        <a
+          className="link-menu"
+          href="#about-me"
+          onClick={(): void => handleMenuButton()}>
           About Enrique
         </a>
       </li>
       <li>
-        <a className="link-menu" href="#experience">
+        <a
+          className="link-menu"
+          href="#experience"
+          onClick={(): void => handleMenuButton()}>
           Experience
         </a>
       </li>

@@ -41,7 +41,15 @@
   .education-left {
     width: 100%;
   }
+  .education-left h1 {
+    width: 100%;
+    text-align: center;
+  }
   .education-right {
     width: 100%;
+  }
+  .education-right h1 {
+    width: 100%;
+    text-align: center;
   }
 }

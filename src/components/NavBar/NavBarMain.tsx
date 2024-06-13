@@ -57,6 +57,7 @@ function NavBarMain() {
         <MobMenuList
           isMenuOpen={isMenuOpen}
           isComponentMounted={isComponentMounted}
+          handleMenuButton={handleMenuButton}
         />
       </nav>
     </>

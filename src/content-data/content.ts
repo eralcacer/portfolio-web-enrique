@@ -18,7 +18,7 @@ export const content = {
     name: "Enrique Alcacer",
   },
   ExperienceInformation: {
-    experienceTitle: "About Me",
+    experienceTitle: "Enrique's Experience",
     experienceDescTxt:
       "MS in Computer Science with expertise in creating both static and dynamic web apps. Skilled in integrating content management systems for seamless user experiences. Built a scalable event sourcing distributed system using Ethereum's Sepolia Network.",
     downloadBtnTxt: "Enrique's Resume 📂",
