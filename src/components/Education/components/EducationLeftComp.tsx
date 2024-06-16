@@ -2,7 +2,6 @@ import React from "react";
 
 import { content } from "../../../content-data/content";
 import TextInformation from "./TextInformation";
-import TextInformationType from "../../../types/TextInformationType";
 
 function EducationLeftComp() {
   return (
