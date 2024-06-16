@@ -167,8 +167,11 @@
 .social-media-comp a:nth-child(2) {
   animation: scale-up 0.4s forwards 1.4s;
 }
-
-@media only screen and (max-width: 1200px) {
+.about-top-section .follow-title {
+  width: 100%;
+  text-align: left;
+}
+@media only screen and (max-width: 1000px) {
   .about-top-section {
     position: relative;
     width: 90%;
@@ -178,6 +181,10 @@
     align-items: center;
     padding: 1em 0;
     margin: auto;
+  }
+  .about-top-section .follow-title {
+    width: 100%;
+    text-align: center;
   }
   .text-profile-comp {
     width: auto;

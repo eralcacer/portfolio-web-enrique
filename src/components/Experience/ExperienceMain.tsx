@@ -19,7 +19,7 @@ function ExperienceMain() {
   }, [experienceCompRef]);
 
   return (
-    <div ref={experienceCompRef} className="experience-comp">
+    <div ref={experienceCompRef} className="experience-comp" id="experience">
       {lazyLoaderInView ? <RecapComp /> : null}
     </div>
   );
