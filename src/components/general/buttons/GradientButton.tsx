@@ -7,7 +7,11 @@ interface GradientButtonProps {
 
 function GradientButton({ btnText, urlLink }: GradientButtonProps) {
   return (
-    <a className="gradient-btn-primary" href={urlLink} target="__blank">
+    <a
+      className="gradient-btn-primary"
+      href={urlLink}
+      target="_blank"
+      rel="noopener noreferrer">
       {btnText}
     </a>
   );
