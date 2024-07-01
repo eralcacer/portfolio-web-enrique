@@ -1,0 +1,63 @@
+.portfolio-comp {
+  text-align: centers;
+}
+.portfolio-comp h1 {
+  text-align: center;
+  width: 100%;
+}
+.portfolio-grid-comp {
+  display: grid;
+  width: -webkit-fill-available;
+  height: auto;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3em;
+  padding: 2em 10em;
+  /* animation: slideTopBottom 0.6s forwards; */
+}
+.project-info-card {
+  opacity: 0;
+  /* scale: 0.6; */
+  width: 100%;
+  margin: 0 2em;
+  padding: 1em;
+  height: fit-content;
+  text-align: center;
+  text-wrap: wrap;
+  margin: auto;
+}
+.img-stack-component {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24px, 1fr));
+  gap: 12px;
+  padding: 12px;
+  width: -webkit-fill-available;
+  height: fit-content;
+  padding: 12px;
+  border-radius: 15px;
+  background-color: var(--white-shadow);
+}
+.img-stack-component img {
+  width: 100%;
+  height: auto;
+}
+.project-info-card .gradient-txt-red-yellow {
+  width: 100%;
+  text-align: center;
+}
+.links-comp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.project-info-card .gradient-btn-primary {
+  text-wrap: wrap;
+  width: fit-content;
+  margin-bottom: 1em;
+  animation: none;
+  opacity: 1;
+}
+.project-info-card .bracket-secondary-btn {
+  animation: none;
+  opacity: 1;
+}
