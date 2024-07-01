@@ -1,0 +1,123 @@
+.portfolio-comp h1 {
+  margin: 2em auto 0;
+  text-align: center;
+  width: fit-content;
+}
+.portfolio-grid-comp {
+  display: grid;
+  width: -webkit-fill-available;
+  height: auto;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3em;
+  padding: 2em 10em;
+}
+.project-info-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 300px;
+  min-height: 400px;
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 0 2em;
+  text-align: center;
+  opacity: 0;
+}
+.links-comp {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  align-items: flex-start;
+}
+.img-stack-component {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(3vw, 1fr));
+  min-height: 150px;
+  justify-items: center;
+  align-items: center;
+  gap: 12px;
+  width: -webkit-fill-available;
+  height: fit-content;
+  padding: 12px;
+  border-radius: 15px;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    60deg,
+    var(--red-coral-logo-color),
+    var(--yellow-logo-color)
+  );
+}
+.img-stack-component img {
+  width: 3vw;
+  height: auto;
+  margin: 0 24px;
+}
+.project-info-card .gradient-txt-red-yellow {
+  width: 100%;
+  text-align: center;
+}
+.links-comp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.project-info-card .gradient-btn-primary {
+  text-wrap: wrap;
+  width: fit-content;
+  margin: 2em auto 0;
+  animation: none;
+  opacity: 1;
+}
+.project-info-card .bracket-secondary-btn {
+  animation: none;
+  opacity: 1;
+  margin: 2em auto 0;
+}
+.project-info-card p {
+  margin: auto;
+}
+@media only screen and (max-width: 1000px) {
+  .project-info-card {
+    opacity: 0;
+    width: 100%;
+    margin: 0 2em;
+    padding: 1em;
+    height: fit-content;
+    min-height: fit-content;
+    text-align: center;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .img-stack-component {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(42px, 1fr));
+    min-height: 150px;
+    justify-items: center;
+    align-items: center;
+    width: -webkit-fill-available;
+    height: fit-content;
+    padding: 12px;
+    border-radius: 15px;
+    background-image: linear-gradient(
+      60deg,
+      var(--red-coral-logo-color),
+      var(--yellow-logo-color)
+    );
+  }
+  .links-comp {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    align-items: flex-start;
+  }
+  .img-stack-component img {
+    width: 42px;
+    height: auto;
+    margin: 0 24px;
+  }
+}

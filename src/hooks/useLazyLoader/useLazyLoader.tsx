@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import { RefObject, useEffect, useState } from "react";
 
 interface useLazyLoaderProps {
-  componentRef: HTMLDivElement | null;
+  componentRef: RefObject<HTMLDivElement>;
   optionsMargin: IntersectionObserverInit | undefined;
 }
 
@@ -19,8 +19,8 @@ function useLazyLoader({
       }
     };
     const observer = new IntersectionObserver(onChange, optionsMargin);
-    if (componentRef) {
-      observer.observe(componentRef);
+    if (componentRef.current) {
+      observer.observe(componentRef.current);
     }
   }, [componentRef, optionsMargin]);
   return inView;

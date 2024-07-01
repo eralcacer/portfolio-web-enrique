@@ -17,6 +17,11 @@ function MenuList() {
             Experience
           </a>
         </li>
+        <li>
+          <a className="link-menu" href="#portfolio">
+            My Portfolio
+          </a>
+        </li>
         {/* <li>
           <a className="link-menu" href="#">
             Projects

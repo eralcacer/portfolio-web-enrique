@@ -13,8 +13,7 @@ function MobMenuList({ isMenuOpen, handleMenuButton }: MobMenuListProps) {
         <a
           className="link-menu"
           href="#about-me"
-          onClick={(): void => handleMenuButton()}
-        >
+          onClick={(): void => handleMenuButton()}>
           About Enrique
         </a>
       </li>
@@ -22,9 +21,16 @@ function MobMenuList({ isMenuOpen, handleMenuButton }: MobMenuListProps) {
         <a
           className="link-menu"
           href="#experience"
-          onClick={(): void => handleMenuButton()}
-        >
+          onClick={(): void => handleMenuButton()}>
           Experience
+        </a>
+      </li>
+      <li>
+        <a
+          className="link-menu"
+          href="#portfolio"
+          onClick={(): void => handleMenuButton()}>
+          My Portfolio
         </a>
       </li>
       {/* <li>
