@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenrique_alcacer_portfolio=self.webpackChunkenrique_alcacer_portfolio||[]).push([[660],{660:(e,o,a)=>{e.exports=a.p+"static/media/python-logo.dea924d737bb84eb9ce3.png"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenrique_alcacer_portfolio=self.webpackChunkenrique_alcacer_portfolio||[]).push([[652],{652:(e,a,c)=>{e.exports=c.p+"static/media/junit-logo.1eb121a32e7ec63426b4.png"}}]);

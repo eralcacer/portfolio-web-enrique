@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenrique_alcacer_portfolio=self.webpackChunkenrique_alcacer_portfolio||[]).push([[141],{141:(e,a,c)=>{e.exports=c.p+"static/media/langchain-logo.8d55ed29f7deb103e75e.png"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenrique_alcacer_portfolio=self.webpackChunkenrique_alcacer_portfolio||[]).push([[229],{229:(e,a,c)=>{e.exports=c.p+"static/media/aws-logo.77be21eb55f00cd5fa12.png"}}]);

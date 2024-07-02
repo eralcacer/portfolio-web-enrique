@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenrique_alcacer_portfolio=self.webpackChunkenrique_alcacer_portfolio||[]).push([[471],{471:(e,o,r)=>{e.exports=r.p+"static/media/googgle-drive-logo.3df6fb31e22b890deb7e.png"}}]);
