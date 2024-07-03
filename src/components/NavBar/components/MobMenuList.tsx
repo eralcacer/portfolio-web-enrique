@@ -3,51 +3,40 @@ import SocialMediaComponent from "../../AboutMe/components/SocialMediaComponent"
 
 interface MobMenuListProps {
   isMenuOpen: boolean;
-  handleMenuButton: () => void;
+  handleMenuButton: (componentId: string) => void;
 }
 
 function MobMenuList({ isMenuOpen, handleMenuButton }: MobMenuListProps) {
   return (
     <ul className={`mob-menu ${isMenuOpen ? "menu-open" : "menu-close"}`}>
       <li>
-        <a
+        <div
           className="link-menu"
-          href="#about-me"
-          onClick={(): void => handleMenuButton()}>
+          onClick={(): void => handleMenuButton("about-me")}>
           About Enrique
-        </a>
+        </div>
       </li>
       <li>
-        <a
+        <div
           className="link-menu"
-          href="#experience"
-          onClick={(): void => handleMenuButton()}>
+          onClick={(): void => handleMenuButton("experience")}>
           Experience
-        </a>
+        </div>
       </li>
       <li>
-        <a
+        <div
           className="link-menu"
-          href="#portfolio"
-          onClick={(): void => handleMenuButton()}>
-          My Portfolio
-        </a>
+          onClick={(): void => handleMenuButton("education")}>
+          Education
+        </div>
       </li>
-      {/* <li>
-          <a className="link-menu" href="#">
-            Projects
-          </a>
-        </li>
-        <li>
-          <a className="link-menu" href="#">
-            Companies
-          </a>
-        </li>
-        <li>
-          <a className="link-menu" href="#">
-            Follow Me
-          </a>
-        </li> */}
+      <li>
+        <div
+          className="link-menu"
+          onClick={(): void => handleMenuButton("portfolio")}>
+          My Portfolio
+        </div>
+      </li>
       <li>
         <SocialMediaComponent />
       </li>

@@ -1,4 +1,4 @@
-import ResumePDF from "../assets/Enrique Alcacer Resume - Software General.pdf";
+import ResumePDF from "../assets/Enrique-Alcacer-Resume.pdf";
 import CounterType from "../types/CounterType";
 import TextInformationType from "../types/TextInformationType";
 

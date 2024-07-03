@@ -13,12 +13,12 @@ function EducationMain() {
   });
 
   return (
-    <div ref={educationCompRef} className="education-comp">
+    <div ref={educationCompRef} className="education-comp" id="education">
       {lazyLoaderInView ? (
-        <>
+        <div className="education-comp-container">
           <EducationLeftComp />
           <EducationRightComp />
-        </>
+        </div>
       ) : null}
     </div>
   );
