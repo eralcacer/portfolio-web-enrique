@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.46bced02.css",
-    "main.js": "/static/js/main.1a03d2a6.js",
+    "main.css": "/static/css/main.883cae62.css",
+    "main.js": "/static/js/main.1feafdd9.js",
     "static/js/482.44e03486.chunk.js": "/static/js/482.44e03486.chunk.js",
     "static/js/229.73580248.chunk.js": "/static/js/229.73580248.chunk.js",
     "static/js/10.af6792c3.chunk.js": "/static/js/10.af6792c3.chunk.js",
@@ -17,7 +17,7 @@
     "static/js/471.eff5e116.chunk.js": "/static/js/471.eff5e116.chunk.js",
     "static/js/141.5bbc0dbc.chunk.js": "/static/js/141.5bbc0dbc.chunk.js",
     "static/js/559.dc1c4100.chunk.js": "/static/js/559.dc1c4100.chunk.js",
-    "static/js/860.361a2504.chunk.js": "/static/js/860.361a2504.chunk.js",
+    "static/js/860.35ea5b23.chunk.js": "/static/js/860.35ea5b23.chunk.js",
     "static/js/652.7a147bff.chunk.js": "/static/js/652.7a147bff.chunk.js",
     "static/js/453.e742ab11.chunk.js": "/static/js/453.e742ab11.chunk.js",
     "static/media/profile-pic-color-transparent.png": "/static/media/profile-pic-color-transparent.669efd632acef5bea68e.png",
@@ -28,25 +28,26 @@
     "static/media/python-logo.png": "/static/media/python-logo.dea924d737bb84eb9ce3.png",
     "static/media/langchain-logo.png": "/static/media/langchain-logo.8d55ed29f7deb103e75e.png",
     "static/media/java-logo.png": "/static/media/java-logo.1eb26d15c955096cc5ce.png",
+    "static/media/Enrique-Alcacer-Resume.pdf": "/static/media/Enrique-Alcacer-Resume.4bbacb4d22bda64e07ce.pdf",
     "static/media/docker-logo.png": "/static/media/docker-logo.3863889e131628c7a9f2.png",
     "static/media/tensorflow-logo.png": "/static/media/tensorflow-logo.8820208b2a3b5433ea9f.png",
-    "static/media/Enrique Alcacer Resume - Software General.pdf": "/static/media/Enrique Alcacer Resume - Software General.43075692374cc0685edd.pdf",
     "static/media/nginx-logo.png": "/static/media/nginx-logo.47142b34604d153f148e.png",
     "static/media/typescript-logo.png": "/static/media/typescript-logo.659e4b9351cf1baa6930.png",
     "static/media/aws-logo.png": "/static/media/aws-logo.77be21eb55f00cd5fa12.png",
     "static/media/node-logo.png": "/static/media/node-logo.9fea1c7da2bd42ab93bf.png",
+    "static/media/spring-boot-logo.png": "/static/media/spring-boot-logo.a146290b1a5c2960aaba.png",
     "static/media/junit-logo.png": "/static/media/junit-logo.1eb121a32e7ec63426b4.png",
     "static/media/angular-logo-new.png": "/static/media/angular-logo-new.eb61c8fa009d1215b265.png",
     "static/media/javascript-logo.png": "/static/media/javascript-logo.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
     "static/media/mongodb-logo.svg": "/static/media/mongodb-logo.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
-    "main.46bced02.css.map": "/static/css/main.46bced02.css.map",
-    "main.1a03d2a6.js.map": "/static/js/main.1a03d2a6.js.map",
+    "main.883cae62.css.map": "/static/css/main.883cae62.css.map",
+    "main.1feafdd9.js.map": "/static/js/main.1feafdd9.js.map",
     "163.7ebe84e6.chunk.js.map": "/static/js/163.7ebe84e6.chunk.js.map",
     "453.e742ab11.chunk.js.map": "/static/js/453.e742ab11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46bced02.css",
-    "static/js/main.1a03d2a6.js"
+    "static/css/main.883cae62.css",
+    "static/js/main.1feafdd9.js"
   ]
 }

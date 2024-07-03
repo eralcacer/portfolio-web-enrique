@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkenrique_alcacer_portfolio=self.webpackChunkenrique_alcacer_portfolio||[]).push([[860],{860:(a,e,o)=>{a.exports=o.p+"static/media/spring-boot-logo.a146290b1a5c2960aaba.png"}}]);
