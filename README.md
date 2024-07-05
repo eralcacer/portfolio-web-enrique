@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Portfolio Template Website with TypeScript and React
 
 This is my portfolio's source code. It is a single-page website with multiple sections:
 	-Welcome/Introduction section
@@ -12,7 +12,11 @@ If you plan to use this portfolio, please give credit.
 # What did I learn
 
 💡 I learned more about working Rect with TypeScript.
+
 💡 I learned more about content management systems.
+
 💡 I learned about animations with lazy loader on a single page website.
+
 💡 I learned about image rendering efficiency.
+
 💡 I learned about Git and how to keep git repositories clean.
