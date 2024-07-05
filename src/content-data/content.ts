@@ -83,6 +83,13 @@ export const content = {
         sourceCodeUrl: "",
       },
       {
+        projectName:
+          "LLM Chatbot Generative AI to Schedule Meetings with Google Drive",
+        techStack: ["Python", "LangChain", "Open AI API", "Google Drive API"],
+        liveUrl: "https://github.com/eralcacer/llm-schedule",
+        sourceCodeUrl: "https://github.com/eralcacer/llm-schedule",
+      },
+      {
         projectName: "Data Access Tracker",
         techStack: [
           "JavaScript",
@@ -96,6 +103,12 @@ export const content = {
         ],
         liveUrl: "",
         sourceCodeUrl: "https://github.com/eralcacer/data-guardian",
+      },
+      {
+        projectName: "CLI App to Add Todos Tasks",
+        techStack: ["Python", "Click"],
+        liveUrl: "https://github.com/eralcacer/cli-app",
+        sourceCodeUrl: "https://github.com/eralcacer/cli-app",
       },
       {
         projectName: "Software Development Training",
@@ -134,12 +147,6 @@ export const content = {
       {
         projectName: "MEVN Chat App",
         techStack: ["Node.js", "MongoDB", "Vue", "Express.js", "Socket.io"],
-        liveUrl: "",
-        sourceCodeUrl: "",
-      },
-      {
-        projectName: "NLP Chatbot Generative AI",
-        techStack: ["Python", "LangChain", "Open AI API", "Google Drive API"],
         liveUrl: "",
         sourceCodeUrl: "",
       },
