@@ -105,6 +105,29 @@ export const content = {
         sourceCodeUrl: "https://github.com/eralcacer/data-guardian",
       },
       {
+        projectName:
+          "Developed WebSocket from scratch handling messages exchange in bits",
+        techStack: ["JavaScript", "Node.js", "HTML"],
+        liveUrl: "",
+        sourceCodeUrl:
+          "https://github.com/eralcacer/websocket-binary/tree/main",
+      },
+      {
+        projectName: "G-Code 3-D Printing Firmware Testing Engineering",
+        techStack: [
+          "Python",
+          "Pytest",
+          "Flask",
+          "G-Code",
+          "Regression Testion",
+          "Unit Testing",
+          "Coverage Testing",
+          "V&V",
+        ],
+        liveUrl: "",
+        sourceCodeUrl: "",
+      },
+      {
         projectName: "CLI App to Add Todos Tasks",
         techStack: ["Python", "Click"],
         liveUrl: "https://github.com/eralcacer/cli-app",
@@ -123,21 +146,7 @@ export const content = {
         liveUrl: "",
         sourceCodeUrl: "",
       },
-      {
-        projectName: "G-Code 3-D Printing Firmware Testing Engineering",
-        techStack: [
-          "Python",
-          "Pytest",
-          "Flask",
-          "G-Code",
-          "Regression Testion",
-          "Unit Testing",
-          "Coverage Testing",
-          "V&V",
-        ],
-        liveUrl: "",
-        sourceCodeUrl: "",
-      },
+
       {
         projectName: "Portfolio Website Template",
         techStack: ["TypeScript", "React", "HTML", "CSS"],
