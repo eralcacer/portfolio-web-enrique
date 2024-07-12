@@ -9,17 +9,28 @@ function NavBarMain() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const [isComponentMounted, setIsComponentMounted] = useState<boolean>(false);
 
-  const handleMenuButton = (): void => {
+  const handleMenuButton = (componentId: string): void => {
     const elementBody = document.body;
     if (!isComponentMounted) {
       setIsComponentMounted(!isComponentMounted);
     }
     if (!isMenuOpen === true) {
-      elementBody.style["overflowY"] = "hidden";
+      elementBody.style["overflow"] = "hidden";
     } else if (!isMenuOpen === false) {
-      elementBody.style["overflowY"] = "scroll";
+      elementBody.style["overflow"] = "scroll";
+    }
+    if (componentId.trim() !== "") {
+      scrollToView(componentId);
     }
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const scrollToView = (componentId: string): void => {
+    const scrollingView = document.getElementById(
+      componentId
+    ) as HTMLElement | null;
+
+    scrollingView?.scrollIntoView({ block: "start", behavior: "smooth" });
   };
   return (
     <>
@@ -30,7 +41,7 @@ function NavBarMain() {
             className={`menu-icon ${
               isMenuOpen ? "open" : isComponentMounted ? "close" : ""
             }`}
-            onClick={(): void => handleMenuButton()}
+            onClick={(): void => handleMenuButton("")}
           >
             {isMenuOpen ? (
               <svg
@@ -55,7 +66,7 @@ function NavBarMain() {
               </svg>
             )}
           </div>
-          <MenuList />
+          <MenuList scrollToView={scrollToView} />
         </div>
         <MobMenuList
           isMenuOpen={isMenuOpen}

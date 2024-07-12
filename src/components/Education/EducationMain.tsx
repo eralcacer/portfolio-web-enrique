@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 
 import "./style/education-style.css";
 import EducationRightComp from "./components/EducationRightComp";
@@ -7,25 +7,18 @@ import useLazyLoader from "../../hooks/useLazyLoader/useLazyLoader";
 
 function EducationMain() {
   const educationCompRef = useRef<HTMLDivElement>(null);
-  const [stateREady, setStateReady] = useState<boolean>(false);
   const lazyLoaderInView = useLazyLoader({
-    componentRef: stateREady ? educationCompRef.current : null,
-    optionsMargin: { rootMargin: "0%" },
+    componentRef: educationCompRef,
+    optionsMargin: { rootMargin: "0px" },
   });
 
-  useEffect(() => {
-    if (educationCompRef.current) {
-      setStateReady(true);
-    }
-  }, [educationCompRef]);
-
   return (
-    <div ref={educationCompRef} className="education-comp">
+    <div ref={educationCompRef} className="education-comp" id="education">
       {lazyLoaderInView ? (
-        <>
+        <div className="education-comp-container">
           <EducationLeftComp />
           <EducationRightComp />
-        </>
+        </div>
       ) : null}
     </div>
   );

@@ -2,38 +2,35 @@ import React from "react";
 
 import "../style/navbar.css";
 
-function MenuList() {
+interface MenuListProps {
+  scrollToView: (componentId: string) => void;
+}
+
+function MenuList({ scrollToView }: MenuListProps) {
   return (
     <>
-      {/* <div className={`${isMenuOpen ? "mob-menu" : ""}`}> */}
       <ul className={`menu-list-comp`}>
         <li>
-          <a className="link-menu" href="#about-me">
+          <div className="link-menu" onClick={() => scrollToView("about-me")}>
             About Enrique
-          </a>
+          </div>
         </li>
         <li>
-          <a className="link-menu" href="#experience">
+          <div className="link-menu" onClick={() => scrollToView("experience")}>
             Experience
-          </a>
-        </li>
-        {/* <li>
-          <a className="link-menu" href="#">
-            Projects
-          </a>
+          </div>
         </li>
         <li>
-          <a className="link-menu" href="#">
-            Companies
-          </a>
+          <div className="link-menu" onClick={() => scrollToView("education")}>
+            Education
+          </div>
         </li>
         <li>
-          <a className="link-menu" href="#">
-            Follow Me
-          </a>
-        </li> */}
+          <div className="link-menu" onClick={() => scrollToView("portfolio")}>
+            My Portfolio
+          </div>
+        </li>
       </ul>
-      {/* </div> */}
     </>
   );
 }

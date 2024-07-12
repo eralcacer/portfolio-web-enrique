@@ -4,6 +4,12 @@
   display: flex;
   justify-content: space-between;
 }
+.education-comp-container {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  animation: slideLeftFull 0.4s forwards;
+}
 .education-left {
   width: 40%;
 }
@@ -33,9 +39,14 @@
   margin-bottom: 8px;
 }
 @media only screen and (max-width: 1000px) {
+  .education-comp-container {
+    display: block;
+    opacity: 1;
+  }
   .education-comp {
     width: -webkit-fill-available;
     padding: 0em 2em;
+    margin: 0 auto;
     display: block;
   }
   .education-left {
