@@ -11,6 +11,7 @@ function ProfilePicture() {
           <img
             className="profile-img"
             src={ProfileTransparentImg}
+            fetchpriority="high"
             alt="Enrique Profile"
           />
         </div>

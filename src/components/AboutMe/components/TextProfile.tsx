@@ -8,6 +8,7 @@ function TextProfile() {
   return (
     <div className="text-profile-comp">
       <h1 className="welcome-txt">
+        <span className="hand-icon">{content.AboutMeSection.icon}</span>{" "}
         {content.AboutMeSection.mainTitleTopWhite}
         <br />
         {content.AboutMeSection.mainTitleBottomWhite}

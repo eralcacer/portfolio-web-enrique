@@ -44,7 +44,7 @@
   position: absolute;
   width: 70%;
   left: 15%;
-  bottom: 0;
+  bottom: -3%;
   height: auto;
   z-index: 2;
   object-fit: cover;

@@ -4,7 +4,8 @@ import TextInformationType from "../types/TextInformationType";
 
 export const content = {
   AboutMeSection: {
-    mainTitleTopWhite: "👋 Hey There,",
+    icon: "👋",
+    mainTitleTopWhite: "Hey There,",
     mainTitleBottomWhite: "I am",
     mainTitleGradient: " Enrique Alcacer",
     descriptionText:
@@ -88,6 +89,13 @@ export const content = {
         techStack: ["Python", "LangChain", "Open AI API", "Google Drive API"],
         liveUrl: "https://github.com/eralcacer/llm-schedule",
         sourceCodeUrl: "https://github.com/eralcacer/llm-schedule",
+      },
+      {
+        projectName:
+          "Containerizing App in Production and Development with Docker",
+        techStack: ["Docker", "JavaScript", "Express.js"],
+        liveUrl: "",
+        sourceCodeUrl: "https://github.com/eralcacer/docker-mongo-tutorial",
       },
       {
         projectName: "Data Access Tracker",
