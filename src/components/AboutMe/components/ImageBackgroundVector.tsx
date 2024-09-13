@@ -9,6 +9,7 @@ function ImageBackgroundVector() {
         <img
           className="img-elem"
           alt="Vector Background"
+          fetchpriority="high"
           src={VectorBackground}
         />
         <div className="box-card-animation"></div>

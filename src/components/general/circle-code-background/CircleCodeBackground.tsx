@@ -9,7 +9,12 @@ function CircleCodeBackground() {
     <div className="circle-code">
       <CodeComp />
       <div className="image-circle">
-        <img className="image-elm" src={ProfileImage} alt="Profile Enrique" />
+        <img
+          className="image-elm"
+          src={ProfileImage}
+          fetchpriority="high"
+          alt="Profile Enrique"
+        />
       </div>
     </div>
   );
