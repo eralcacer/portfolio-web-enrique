@@ -7,6 +7,9 @@
     var(--blue-background),
     var(--dark-blue-background)
   );
+  position: sticky;
+  top: -0.1px;
+  z-index: 40;
 }
 .menu-comp-top {
   display: flex;

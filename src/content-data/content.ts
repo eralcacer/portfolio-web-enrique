@@ -34,7 +34,7 @@ export const content = {
         txt: "Successfully Projects Completed.",
       },
       {
-        number: 100,
+        number: 350,
         txt: "LeetCode Problems Solved.",
       },
     ] as CounterType[],
