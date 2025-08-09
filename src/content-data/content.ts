@@ -56,9 +56,14 @@ export const content = {
   ExperienceComp: {
     workArr: [
       {
+        headline: "Numerator",
+        txt: "Associate Software Engineer",
+        dates: "March 2025 - Present",
+      },
+			{
         headline: "University Enterprises, Inc., Sacramento, CA",
         txt: "Frontend Engineer",
-        dates: "May 2022 - Present",
+        dates: "May 2022 - March 2025",
       },
       {
         headline: "Lanaccess, Barcelona, Spain",
