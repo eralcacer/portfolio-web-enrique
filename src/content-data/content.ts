@@ -55,8 +55,13 @@ export const content = {
   },
   ExperienceComp: {
     workArr: [
+			{
+        headline: "Google, San Francisco, CA",
+        txt: "Software Engineer",
+        dates: "Aug 2025 - Present",
+      },
       {
-        headline: "Numerator",
+        headline: "Numerator, Sacramento, CA",
         txt: "Associate Software Engineer",
         dates: "March 2025 - Present",
       },
