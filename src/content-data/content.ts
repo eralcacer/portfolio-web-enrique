@@ -55,19 +55,14 @@ export const content = {
   },
   ExperienceComp: {
     workArr: [
-			{
-        headline: "Google, San Francisco, CA",
-        txt: "Software Engineer",
-        dates: "Aug 2025 - Present",
-      },
-      {
+	  {
         headline: "Numerator, Sacramento, CA",
         txt: "Associate Software Engineer",
         dates: "March 2025 - Present",
       },
 			{
         headline: "University Enterprises, Inc., Sacramento, CA",
-        txt: "Frontend Engineer",
+        txt: "Software Engineer, Web Developer",
         dates: "May 2022 - March 2025",
       },
       {
