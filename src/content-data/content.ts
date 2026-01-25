@@ -9,7 +9,7 @@ export const content = {
     mainTitleBottomWhite: "I am",
     mainTitleGradient: " Enrique Alcacer",
     descriptionText:
-      "Welcome to my website! I am a Software Engineer with a Master's in Computer Science from California State University of Sacramento. Besides, I have a BS in Mathematics. If you don't catch me coding, you can find me playing tennis. I hope you enjoy my site as much as I enjoyed developing it.",
+      "Welcome to my website! I am a Software Engineer at Google. If you don't catch me coding, you can find me playing tennis. I hope you enjoy my site as much as I enjoyed developing it.",
     primaryBtnGradientTxt: "Hire Me ➡",
     primaryBtnUrl: "mailto:enrique.alcacer@gmail.com",
     secondaryBtnBracketTxt: "My Portfolio",
@@ -55,15 +55,20 @@ export const content = {
   },
   ExperienceComp: {
     workArr: [
-	  {
+      {
+        headline: "Google, Mountain View, CA",
+        txt: "Software Engineer",
+        dates: "Nov 2025 - Present",
+      },
+      {
         headline: "Numerator, Sacramento, CA",
         txt: "Associate Software Engineer",
-        dates: "March 2025 - Present",
+        dates: "Mar 2025 - Oct 2025",
       },
-			{
+      {
         headline: "University Enterprises, Inc., Sacramento, CA",
         txt: "Software Engineer, Web Developer",
-        dates: "May 2022 - March 2025",
+        dates: "May 2022 - Mar 2025",
       },
       {
         headline: "Lanaccess, Barcelona, Spain",
